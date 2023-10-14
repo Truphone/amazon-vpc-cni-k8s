@@ -340,12 +340,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: false,
 	},
 	"c5.2xlarge":	   {
-		ENILimit: 4, 
-		IPv4Limit: 15, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 4,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
@@ -354,12 +354,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: false,
 	},
 	"c5.4xlarge":	   {
-		ENILimit: 8, 
-		IPv4Limit: 30, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 8,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
@@ -410,12 +410,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: true,
 	},
 	"c5.xlarge":	   {
-		ENILimit: 4, 
-		IPv4Limit: 15, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 4,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
@@ -4145,12 +4145,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: false,
 	},
 	"m5.2xlarge":	   {
-		ENILimit: 4, 
-		IPv4Limit: 15, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 4,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
@@ -4159,12 +4159,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: false,
 	},
 	"m5.4xlarge":	   {
-		ENILimit: 8, 
-		IPv4Limit: 30, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 8,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
@@ -4215,12 +4215,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: true,
 	},
 	"m5.xlarge":	   {
-		ENILimit: 4, 
-		IPv4Limit: 15, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 4,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
@@ -7046,12 +7046,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: false,
 	},
 	"r5.2xlarge":	   {
-		ENILimit: 4, 
-		IPv4Limit: 15, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 4,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
@@ -7060,12 +7060,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: false,
 	},
 	"r5.4xlarge":	   {
-		ENILimit: 8, 
-		IPv4Limit: 30, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 8,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
@@ -7116,12 +7116,12 @@ var instanceNetworkingLimits = map[string]InstanceTypeLimits{
 		IsBareMetal: true,
 	},
 	"r5.xlarge":	   {
-		ENILimit: 4, 
-		IPv4Limit: 15, 
+		ENILimit: 10, 
+		IPv4Limit: 26, 
 		DefaultNetworkCardIndex: 0,
 		NetworkCards: []NetworkCard{
 				{
-					MaximumNetworkInterfaces: 4,
+					MaximumNetworkInterfaces: 10,
 					NetworkCardIndex: 0,
 				},
 			
