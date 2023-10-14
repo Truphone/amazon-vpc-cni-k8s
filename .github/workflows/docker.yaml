@@ -36,7 +36,8 @@ jobs:
       - name: Run make docker
         env:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          IMAGE_TAG: ${{ github.sha::7 }}
+          GITHUB_SHA: ${{ github.sha }}
+          IMAGE_TAG: ${GITHUB_SHA::7}
         run: |
           make docker
           docker push ${REGISTRY}/amazon-k8s-cni:${IMAGE_TAG}
