@@ -42,4 +42,5 @@ jobs:
           echo "Image tag: $IMAGE_TAG"
           make docker
           docker push ${REGISTRY}/amazon-k8s-cni:${IMAGE_TAG}
+          make docker-init
           docker push ${REGISTRY}/amazon-k8s-cni-init:${IMAGE_TAG}
