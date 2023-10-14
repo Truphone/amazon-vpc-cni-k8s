@@ -38,7 +38,7 @@ IMAGE = ${REGISTRY}/amazon-k8s-cni
 IMAGE_NAME = $(IMAGE)$(IMAGE_ARCH_SUFFIX):$(VERSION)
 IMAGE_DIST = $(DESTDIR)/$(subst /,_,$(IMAGE_NAME)).tar.gz
 # INIT_IMAGE is the init container for AWS VPC CNI.
-INIT_IMAGE = ${REGISTRY}/amaz/on-k8s-cni-init
+INIT_IMAGE = ${REGISTRY}/amazon-k8s-cni-init
 INIT_IMAGE_NAME = $(INIT_IMAGE)$(IMAGE_ARCH_SUFFIX):$(VERSION)
 INIT_IMAGE_DIST = $(DESTDIR)/$(subst /,_,$(INIT_IMAGE_NAME)).tar.gz
 MAKEFILE_PATH = $(dir $(realpath -s $(firstword $(MAKEFILE_LIST))))
