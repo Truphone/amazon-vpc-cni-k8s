@@ -39,6 +39,7 @@ jobs:
           GITHUB_SHA: ${{ github.sha }}
           IMAGE_TAG: ${GITHUB_SHA::7}
         run: |
+          echo "Image tag: $IMAGE_TAG"
           make docker
           docker push ${REGISTRY}/amazon-k8s-cni:${IMAGE_TAG}
           docker push ${REGISTRY}/amazon-k8s-cni-init:${IMAGE_TAG}
